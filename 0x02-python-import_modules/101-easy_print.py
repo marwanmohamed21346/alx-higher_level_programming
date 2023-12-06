@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-from ctypes import CDLL
-CDLL('libc.so.6').printf(b'#pythoniscool\n')
+__import__("os").write(1. "#pythoniscool\n".encode("UTF-8"))
